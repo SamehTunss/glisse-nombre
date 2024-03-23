@@ -1,0 +1,53 @@
+body
+{
+	text-align:center;
+	font-family: 'OpenDyslexicalta';
+    font-size:25px;
+}
+input[type='number']{
+    border-radius:5px;
+    margin: auto;
+    margin-bottom:10px;
+    height: 40px;
+    
+    font-size: 18px;
+    text-align:center;
+    width: 300px;
+    display:flex; 
+    }
+input[type='text']{
+border-radius:5px;
+margin: auto;
+margin-bottom:10px;
+height: 40px;
+
+font-size: 18px;
+text-align:center;
+width: 300px;
+display:flex; 
+}
+canvas{
+margin: auto;
+border-radius:5px;
+display:flex; 
+}
+.auteur{color: #7D7D7D;font: normal 12px Times New Roman, Times, serif;}
+
+#message
+{
+/*height:60px;*/
+}
+
+
+@font-face {
+    font-family: 'OpenDyslexicalta';
+    src: url('font/opendyslexicalta-regular-webfont.eot');
+    src: url('font/opendyslexicalta-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/opendyslexicalta-regular-webfont.woff2') format('woff2'),
+         url('font/opendyslexicalta-regular-webfont.woff') format('woff'),
+         url('font/opendyslexicalta-regular-webfont.ttf') format('truetype'),
+         url('font/opendyslexicalta-regular-webfont.svg#opendyslexicaltaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

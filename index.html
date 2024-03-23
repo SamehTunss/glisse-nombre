@@ -1,0 +1,26 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Glisse-nombre</title>
+
+
+	<script defer language="JavaScript" src="fonctions.js?v7t"></script>
+	<link rel="stylesheet" type="text/css" href="style.css?v6" media="all" />
+</head>
+
+<body>
+	<input id="nb" type="number" step="any" pattern="[0-9]+([,\.][0-9]+)?" onkeyup='placernombre(this.value);'
+		placeholder="Mettre votre nombre">
+	<input type="checkbox" id="checke" 
+		onchange="aveczero=(this.checked);placernombre(document.getElementById('nb').value);" />أظهر الصفر	<input type="hidden" id="check" onchange="affichemessage();" />
+	<canvas id="mon_canvas" width="1100px" height="580px"></canvas>
+	<span id='message'></span>
+
+	<span class='auteur'>Arnaud DURAND (<a href="https://mathix.org">mathix.org</a>) CC-BY-NC-SA v4 20/09/2018</span>
+
+</body>
+
+</html>
